@@ -1,0 +1,2 @@
+include::{includedir}/about-frederik.adoc[]
+

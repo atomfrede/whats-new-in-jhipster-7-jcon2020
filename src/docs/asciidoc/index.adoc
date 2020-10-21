@@ -1,0 +1,44 @@
+:icons: font
+:twitter-tag: @atomfrede 
+:conference-tag: #JCON2020
+:talk-tag: #jhipster7
+:revnumber: {project-version}
+:example-caption!:
+:source-highlighter: highlightjs
+:revealjs_width: "75%"
+:imagesdir: {docdir}/src/docs/asciidoc/images
+:sourcedir: {docdir}/src/main/java
+:customcss: css/custom.css
+:revealjs_history: true
+:revealjs_plugin_pdf: enabled
+:revealjs_theme: solarized
+:revealjs_controls: true
+:source-highlighter: highlightjs
+:highlightjs-theme: css/atom-one-light.css
+// :iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+:iconfont-cdn: css/font-awesome.min.css
+:icons: font
+:linkattrs:
+
+[%notitle]
+== What's new in JHipster 7?
+
+ifdef::ghpages[]
+image::{ghpagesurl}JCON-ONLINE-2020-Slides-Template-title.png[background, size=cover]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::JCON-ONLINE-2020-Slides-Template-title.png[background, size=cover]
+endif::ghpages[]
+
+include::{includedir}/footer.adoc[]
+include::{includedir}/click-mouse-navigation.adoc[]
+
+include::{includedir}/about-us.adoc[]
+
+
+
+
+
+
+

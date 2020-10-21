@@ -1,0 +1,55 @@
+[.white.text]
+== More
+
+ifdef::ghpages[]
+image::{ghpagesurl}attention.gif[canvas,size=contain]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::attention.gif[canvas,size=contain]
+endif::ghpages[]
+
+* https://jhipster.tech[jhipster.tech]
+* https://github.com/jhipster[github.com/jhipster]
+* https://twitter.com/jhipster[twitter.com/jhipster]
+* https://stackoverflow.com/tags/jhipster/info[stackoverflow.com/tags/jhipster/info]
+* https://gitter.im/jhipster/generator-jhipster[gitter.im/jhipster/generator-jhipster]
+* http://wwww.jhipster-book.com[jhipster-book.com]
+* https://www.packtpub.com/web-development/full-stack-development-with-jhipster-second-edition[www.packtpub.com/web-development/full-stack-development-with-jhipster-second-edition]
+
+[NOTE.speaker]
+--
+Deepus book was just release in a second edition
+Matt Raible will update his minibook for upcoming release
+--
+
+=== Bug Bounties
+
+ifdef::ghpages[]
+image::{ghpagesurl}bounties.webp[width=25%]
+https://jhipster.tech/bug-bounties[jhipster.tech/bug-bounties]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::bounties.webp[width=25%]
+https://jhipster.tech/bug-bounties[jhipster.tech/bug-bounties]
+endif::ghpages[]
+
+[NOTE.speaker]
+--
+Via open collective, quite a nice budget and helps to be sustainable as we are fully open source. 
+So check the issue list and get some money by doing good
+--
+
+== Questions?
+
+ifdef::ghpages[]
+image::{ghpagesurl}questions.webp[]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::questions.webp[]
+endif::ghpages[]
+
+== Questions?
+
