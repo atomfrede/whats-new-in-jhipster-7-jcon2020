@@ -1,0 +1,32 @@
+== Agenda
+
+* Introduction
+* Overview
+* Demo 
+* Outlook
+
+[.notes]
+--
+* Short intro what JH is
+* overview what has changed/is new
+* demo creating jh app with 7
+* outlook
+--
+
+== Introduction
+
+Raise your hands ✋
+
+[.notes]
+--
+* Raise Hand who knows JHipster
+* Raise Hand who uses JHipster
+* J was Java, but we have more
+--
+
+== What is JHipster?
+
+[quote]
+icon:quote-left[2x] TL,DR; JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.  
+
+

@@ -1,0 +1,54 @@
+== Overview
+
+* JHipster 6.0.0 in May 2019*
+* JHipster 7 still in development
+* Done when it's Done
+
+=== JHipster Code
+
+* One day long hackathon in September this year
+* Corona made it all not easier 😷
+
+=== What's new?
+
+[%step]
+* Prettier Java
+* Spring Boot 2.3.x (finally)
+* vue.js in core
+* fully angular cli compatible
+* cypress instead of protractor
+* Postgres as default database
+* Fully Reactive
+* JHCC
+* lot's of internal improvements
+
+=== Prettier Java
+
+One tool to format them all
+
+=== Spring Boot 2.3.x
+
+* Took much longer than expected due to mostly couchbase problems
+* Disabled/not working right now, depending on fixes in spring data
+* Lot's of combination that need to work and be tested
+
+
+[.notes]
+--
+* Valid question why it took so long and why not part of 6.x
+* not as easy as updating 1 app to 2.3 as we have much more configurations
+* couchbase was the main problem with incompatobilities for e.g. migrations and more
+--
+
+=== Vue.js
+
+* TODO
+
+=== cypress
+
+* TODO
+
+=== JHCC
+
+* TODO
+
