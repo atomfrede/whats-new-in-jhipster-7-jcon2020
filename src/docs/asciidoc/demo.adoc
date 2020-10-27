@@ -16,11 +16,11 @@ jhipster
 === Generate Entities
 
 ifdef::ghpages[]
-image::{ghpagesurl}jhipster-jdl.png[width=50%]
+image::{ghpagesurl}jhipster-jdl.png[width=30%]
 endif::ghpages[]
 
 ifndef::ghpages[]
-image::jhipster-jdl.png[width=50%]
+image::jhipster-jdl.png[width=30%]
 endif::ghpages[]
 
 [source]

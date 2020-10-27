@@ -25,3 +25,5 @@
 * https://start.jhipster.tech/
 * https://github.com/jhipster/generator-jhipster
 * https://github.com/jhipster
+
+== Questions?
