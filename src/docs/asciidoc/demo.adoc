@@ -1,0 +1,29 @@
+== Demo
+
+[source]
+----
+//Install node, java and git (optional)
+git clone git@github.com:jhipster/generator-jhipster.git
+cd generator-jhipster
+npm link
+cd ..
+mkdir hiking
+cd hiking
+npm link generator-jhipster
+jhipster
+----
+
+=== Generate Entities
+
+ifdef::ghpages[]
+image::{ghpagesurl}jhipster-jdl.png[width=50%]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::jhipster-jdl.png[width=50%]
+endif::ghpages[]
+
+[source]
+----
+jhipster import-jdl app.jdl
+----

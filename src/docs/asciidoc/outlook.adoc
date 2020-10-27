@@ -1,0 +1,27 @@
+== Outlook
+
+* modulith/package by feature
+* improve JHCC
+* upgrade official blueprints
+* vue 3
+* webpack 5
+* microfrontends 
+
+[.notes]
+--
+* some things are still TBD
+* microfrontend will be nice, but no final decision taken
+* as always, looking for contributors
+--
+
+=== Looking for contributors
+
+* we develop everything in the open
+* bug bounty program 💸
+
+=== Important Links
+
+* https://www.jhipster.tech/
+* https://start.jhipster.tech/
+* https://github.com/jhipster/generator-jhipster
+* https://github.com/jhipster

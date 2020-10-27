@@ -1,13 +1,15 @@
 == Overview
 
-* JHipster 6.0.0 in May 2019*
+* JHipster 6.0.0 in May 2019
 * JHipster 7 still in development
 * Done when it's Done
+* Expect a first beta version this year
 
 === JHipster Code
 
 * One day long hackathon in September this year
 * Corona made it all not easier 😷
+* But it was a great success with lots of contributions
 
 === What's new?
 
@@ -16,22 +18,45 @@
 * Spring Boot 2.3.x (finally)
 * vue.js in core
 * fully angular cli compatible
+* removed moment.js
+
+
+=== What's new?
+
+[%step]
 * cypress instead of protractor
 * Postgres as default database
 * Fully Reactive
 * JHCC
 * lot's of internal improvements
 
+[%notitle]
 === Prettier Java
 
-One tool to format them all
+ifdef::ghpages[]
+image::{ghpagesurl}prettier-java-logo-light.bmp[width=25%]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::prettier-java-logo-light.bmp[width=25%]
+endif::ghpages[]
+
+[quote]
+icon:quote-left[2x] Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+[.notes]
+--
+* Raise Hand who knows Prettier
+* No we have one tool to format all source files
+* Prettier can be integrated into maven/gradle as well (but requires node)
+--
 
 === Spring Boot 2.3.x
 
-* Took much longer than expected due to mostly couchbase problems
-* Disabled/not working right now, depending on fixes in spring data
-* Lot's of combination that need to work and be tested
-
+* Took much longer than expected
+* Lot's of combination to test
+* Couchbase still not working
+* Pending fix in spring data
 
 [.notes]
 --
@@ -40,15 +65,79 @@ One tool to format them all
 * couchbase was the main problem with incompatobilities for e.g. migrations and more
 --
 
-=== Vue.js
+=== vue.js
 
-* TODO
+* started as blueprint
+* now part of the core generator
+* easier to keep up to date
+
+[.notes]
+--
+* best option imho
+* well maintained
+* smallest bundle size
+* BUT not yet vue3 as 3rd party components not ready yet
+--
 
 === cypress
 
-* TODO
+* protractor did not work well with vue/react
+* slow/brittle builds
+* cypress is faster & easier 
+
+=== Removed moment.js
+
+ifdef::ghpages[]
+image::{ghpagesurl}ng-moment.png[width=50%]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::ng-moment.png[width=50%]
+endif::ghpages[]
+
+=== Removed moment.js
+
+ifdef::ghpages[]
+image::{ghpagesurl}ng-dayjs.png[width=50%]
+endif::ghpages[]
+
+ifndef::ghpages[]
+image::ng-dayjs.png[width=50%]
+endif::ghpages[]
+
+[.notes]
+--
+* moment is still huge
+* used only a small subset of it
+* it is deprecated by now
+* bundle size reduced
+--
+
+=== Fully Reactive
+
+* full entity support
+* using spring webflux
+* R2DBC for sql databases
+
+[.notes]
+--
+* huge work
+* took longer than usual
+* add a lot of complexity to the templates
+* now part of our regular ci
+--
 
 === JHCC
 
-* TODO
+* similar to spring boot admin
+* eventually keep the amount of generated code low
+* still in early development
+* it is a jhipster application
+
+=== Internals
+
+* removed deprecations
+* evaluate different approaches to make templates easier
+* clean up internal apis
+* better extensibility
 

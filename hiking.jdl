@@ -1,0 +1,29 @@
+entity HikingLocation {
+    name String required
+    description String required
+}
+
+entity Hike {
+    name String required
+    date LocalDate required
+    description TextBlob required
+    photo ImageBlob required
+    type Difficulty required
+    length Integer required
+}
+
+enum Difficulty {
+  EASY,
+  MEDIUM,
+  HARD,
+  ULTRA
+}
+
+
+relationship OneToOne { 
+  Hike{startLocation(name)} to HikingLocation,
+  Hike{destination(name)} to HikingLocation
+}
+
+paginate Hike with pagination 
+paginate HikingLocation with pagination
