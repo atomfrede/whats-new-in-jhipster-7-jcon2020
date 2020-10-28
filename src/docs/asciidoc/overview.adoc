@@ -1,7 +1,8 @@
 == Overview
 
-* JHipster 6.0.0 in May 2019
-* JHipster 7 still in development
+* JHipster 6.0.0 in May 2019 
+* We managed to have a release ~12 month 😺
+* JHipster 7 still in development 😞
 * Done when it's Done
 * Expect a first beta version this year
 
@@ -118,6 +119,7 @@ endif::ghpages[]
 * full entity support
 * using spring webflux
 * R2DBC for sql databases
+* still in beta
 
 [.notes]
 --

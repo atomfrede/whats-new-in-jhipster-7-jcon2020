@@ -29,4 +29,25 @@ Raise your hands ✋
 [quote]
 icon:quote-left[2x] TL,DR; JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.  
 
+== JHipster in Numbers
+
+* +17k Stars
+* 37 Core Team Members
+* 590+ contributors
+* 2 Books
+* 350+ open collective sponsors
+
+== Extensibility
+
+* Modules & Blueprints
+* Micronaut, Quarkus
+* Kotlin, .net, node.js
+* JOOQ
+
+[.notes]
+--
+* support from e.g. neo4j, micronaut whcih helps testing there own stuff in real world applications 
+--
+
+
 
